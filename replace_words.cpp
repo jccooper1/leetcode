@@ -3,7 +3,7 @@ public:
     string replaceWords(vector<string>& dictionary, string sentence) {
         unordered_set<string> roots(dictionary.begin(), dictionary.end());
         stringstream ss;
-        ss<<sentence;//powerful stringstream
+        ss<<sentence;//powerful stringstream https://blog.csdn.net/aipiannian6725/article/details/101157697?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7EPaidSort-1-101157697-blog-79922660.235%5Ev43%5Epc_blog_bottom_relevance_base3&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7EPaidSort-1-101157697-blog-79922660.235%5Ev43%5Epc_blog_bottom_relevance_base3&utm_relevant_index=1
         string word, result;
         while (ss >> word) {
             string root;
